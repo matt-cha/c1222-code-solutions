@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Run with Node.js",
+      "program": "${file}",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+**/node_modules/**
+**/dist/main.js*
+node_modules
+**/.DS_Store
+**/*.log
+**/.env
+react-*/server/public/*.js*
