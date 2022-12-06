@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+section {
+  padding: 1.5rem 0;
+  background-color: #caf0f8;
+}
+
+h2 {
+  margin-bottom: 3.5rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+form {
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+input,
+button {
+  height: 3rem;
+  border-radius: 0.25rem;
+  font-size: 1.1rem;
+}
+
+input {
+  width: 400px;
+  padding: 0.5rem;
+  border: 1px solid;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  border-color: #e5e5e5;
+}
+
+button {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: 0.25rem;
+  border: none;
+  font-weight: 500;
+  color: white;
+  background-color: #cf3;
+}
