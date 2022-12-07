@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: AtlasGrotesk;
+  font-style: normal;
+  font-weight: 300;
+  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+}
