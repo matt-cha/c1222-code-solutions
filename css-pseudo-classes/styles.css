@@ -1,0 +1,19 @@
+button {
+  font-size: 22px;
+  padding: 10px 25px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.blackbg {
+  background-color: black;
+  color: white;
+}
+
+.greybg {
+  background-color: lightgray;
+}
