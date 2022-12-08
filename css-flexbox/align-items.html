@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Flexbox - align-items</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="pokemon.css">
+  <style>
+    /* your styles here 👇 */
+    #card-deck {
+      display: flex;
+      min-height: 100vh ;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-wrapper {
+      flex-basis: calc(100% / 3);
+    }
+  </style>
+</head>
+<body>
+  <div id="card-deck">
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/025.png" alt="Pikachu">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
