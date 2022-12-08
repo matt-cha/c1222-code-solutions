@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Flexbox - justify-content</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="pokemon.css">
+  <style>
+    /* your styles here 👇 */
+    #card-deck {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .card-wrapper {
+      flex-basis: 25%;
+      padding: .5rem;
+    }
+
+    .pokemon-card {
+      padding: .5rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="card-deck">
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/001.png" alt="Bulbasaur">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/004.png" alt="Charmander">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/007.png" alt="Squirtle">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
