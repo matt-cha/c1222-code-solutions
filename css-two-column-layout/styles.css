@@ -1,6 +1,6 @@
 * {
   font-family: Karla, sans-serif;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.02rem;
   line-height: 1.6rem;
 }
 
@@ -17,12 +17,15 @@ h1 {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
 }
 
 .column-full {
   text-align: center;
   width: 100%;
   font-size: x-large;
+  padding: 1rem 9rem 3rem;
+  margin-top: 0;
 }
 
 p {
@@ -37,13 +40,14 @@ p {
   color: red;
   background-color: white;
   border-color: red;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  padding: 0.2rem 2.5rem;
+  font-size: medium;
 }
 
-.learn-button {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-two-third {
+  width: 66.66%;
 }
