@@ -1,0 +1,284 @@
+.container {
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-button {
+  color: #6e6e6e;
+  background: transparent;
+  border: none;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+}
+
+.font-size-1-4rem {
+  font-size: 1.2rem;
+}
+
+.font-size-275rem {
+  font-size: 2.75rem;
+}
+
+.font-size-xlarge {
+  font-size: x-large;
+}
+
+.margin-footer-right {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.padding-privacy {
+  padding: 3rem 2rem 3rem 6rem;
+  margin: 0;
+}
+
+.gray-button {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.col-one-fourth {
+  width: calc(100% / 4);
+}
+
+.col-one-half {
+  width: calc(100% / 2);
+}
+
+.img-hero {
+  width: 87.5%;
+}
+
+.footercolorgray {
+  background-color: #525350;
+}
+
+.font-family-avenir {
+  font-family: Avenir, sans-serif;
+}
+
+.margin-1rem {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.font-color-white {
+  color: white;
+}
+
+.font-color-darkgray {
+  color: #6e6e6e;
+}
+
+.grey-foot-pad {
+  padding: 7rem 6rem;
+  align-items: flex-start;
+  background-color: #525350;
+}
+
+.foot-lineheight {
+  line-height: 2.5rem;
+}
+
+.get-started-button-right-padding {
+  padding: 2rem 6rem 2rem 2rem;
+}
+
+.get-started {
+  color: white;
+  background-color: #294464;
+  border-radius: 4px;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.75rem;
+}
+
+.contact-us-button {
+  color: white;
+  background-color: #294464;
+  border-radius: 4px;
+  border: none;
+  font-weight: 400;
+  font-size: large;
+  letter-spacing: 0.01rem;
+  padding: 1rem 1.3rem;
+}
+
+.font-size-large {
+  font-size: large;
+}
+
+.img-padding {
+  margin: 1rem 0 2rem;
+}
+
+.ready-padding {
+  padding-left: 6rem;
+}
+
+.font-size-small {
+  font-size: 0.8rem;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+}
+
+.margin-centering-in-mid {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.location-bg-color {
+  background-color: #fafafa;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.shrink {
+  padding: 0 0 2rem;
+}
+
+.location-line-height {
+  line-height: 1.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 5rem;
+}
+
+.font-weight-light {
+  font-weight: 525;
+}
+
+.inside-text {
+  position: absolute;
+  left: 11rem;
+  top: 7rem;
+}
+
+.h1-inside-text-width {
+  width: 40%;
+}
+
+.p-inside-text-width {
+  width: 47%;
+}
+
+.p-letter-space {
+  letter-spacing: 0.1rem;
+}
+
+.img-p-lineheight {
+  line-height: 1.8rem;
+}
+
+.hero {
+  position: relative;
+}
+
+.image-overlay {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(transparent, black);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bg-image {
+  background-image: url("../css-canvas-medical/images/hero.jpg");
+  position: relative;
+}
+.font-weight-light: {
+  .font-weight: light;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.location-margin-lr {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.nav-logo-img {
+  width: 22.5%;
+}
+
+.white-img-smaller {
+  width: 60%;
+}
+
+.nav-img-margin {
+  margin-left: 6.5rem;
+}
+
+.justify-content {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.space-nav {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.nav-margin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.contact-us-margin {
+  margin-right: 1rem;
+}
+
+.product-button-margin {
+  margin-left: 0;
+  margin-right: 1.5rem;
+}
+
+.nav-button-color {
+  color: #a0a0a0;
+}
+
+.hero-margin-tb {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.border-gray {
+  border-color: #6e6e6e;
+}
+
+.margin-tb-1 {
+  margin: 1rem 0;
+}
+
+.font-size-35rem {
+  font-size: 3.5rem;
+}

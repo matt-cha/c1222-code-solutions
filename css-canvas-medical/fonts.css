@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  src: url("Avenir.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("TiemposHeadline-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tiempos Headline";
+  font-style: italic;
+  font-weight: 300;
+  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
+}
