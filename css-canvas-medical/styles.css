@@ -89,7 +89,12 @@
 }
 
 .get-started-button-right-padding {
-  padding: 2rem 6rem 2rem 2rem;
+  padding: 3rem 6rem 2rem 2rem;
+}
+
+.ready-margin {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .get-started {
@@ -193,10 +198,10 @@
 }
 
 .overlay {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
   position: absolute;
-  background: rgba(102 122 137 50%);
+  background-color: rgba(128 128 128 / 35%);
   top: 0;
   bottom: 0;
   left: 0;
@@ -229,7 +234,7 @@
 }
 
 .nav-img-margin {
-  margin-left: 6.5rem;
+  margin-left: 6rem;
 }
 
 .justify-content {
@@ -295,6 +300,9 @@
 }
 
 .border-color-gray {
-  border-color: #a0a0a0;
-  border: solid;
+  border-bottom: 1px solid #e7e9ec;
+}
+
+.bottom-padding-1rem {
+  padding-bottom: 1rem;
 }
