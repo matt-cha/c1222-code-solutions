@@ -57,10 +57,6 @@
   width: calc(100% / 2);
 }
 
-.img-hero {
-  width: 87.5%;
-}
-
 .footercolorgray {
   background-color: #525350;
 }
@@ -138,8 +134,8 @@
 }
 
 .margin-centering-in-mid {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 32%;
+  margin-right: 32%;
 }
 
 .location-bg-color {
@@ -197,6 +193,8 @@
 }
 
 .overlay {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   position: absolute;
   background: linear-gradient(transparent, black);
   top: 0;
@@ -281,4 +279,8 @@
 
 .font-size-35rem {
   font-size: 3.5rem;
+}
+
+.col-full {
+  width: 100%;
 }
