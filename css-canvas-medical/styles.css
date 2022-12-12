@@ -196,7 +196,7 @@
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   position: absolute;
-  background: linear-gradient(transparent, black);
+  background: rgba(102 122 137 50%);
   top: 0;
   bottom: 0;
   left: 0;
@@ -269,6 +269,11 @@
   margin-bottom: 7rem;
 }
 
+.padding-hero-lr {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
 .border-gray {
   border-color: #6e6e6e;
 }
@@ -283,4 +288,13 @@
 
 .col-full {
   width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.border-color-gray {
+  border-color: #a0a0a0;
+  border: solid;
 }
