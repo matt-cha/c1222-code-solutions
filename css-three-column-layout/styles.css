@@ -10,11 +10,24 @@ img {
 }
 
 .column-one-third {
-  width: calc(100% / 3);
+  flex-basis: 100%;
+}
+
+.text-align-center {
   text-align: center;
-  padding-top: 1.4rem;
+}
+
+.width-one-third {
+  width: calc(100% / 3);
+}
+
+.col-one-third-margin-lr {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.col-one-third-padding-top {
+  padding-top: 1.4rem;
 }
 
 .circle {
@@ -54,6 +67,4 @@ h1 {
   align-items: flex-end;
   justify-content: center;
   font-weight: 100;
-
-  /*   font-size: 30px; */
 }
