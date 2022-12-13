@@ -45,7 +45,7 @@ p {
 }
 
 .column-one-half {
-  /* width: calc(100% / 2); */
+  flex-basis: 100%;
 }
 
 .learn-more {
@@ -57,11 +57,9 @@ p {
 }
 
 .column-one-third {
-  /*  width: calc(100% / 3); */
   flex-basis: 100%;
 }
 
 .column-two-third {
-  /*   width: 66.66%; */
   flex-basis: 100%;
 }
