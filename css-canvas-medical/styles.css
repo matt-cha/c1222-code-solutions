@@ -50,11 +50,11 @@
 }
 
 .col-one-fourth {
-  width: calc(100% / 4);
+  flex-basis: calc(100% / 4);
 }
 
 .col-one-half {
-  width: calc(100% / 2);
+  flex-basis: calc(100% / 2);
 }
 
 .footercolorgray {
@@ -114,7 +114,7 @@
   font-weight: 400;
   font-size: large;
   letter-spacing: 0.01rem;
-  padding: 1rem 1.3rem;
+  padding: 1rem 1.5rem;
 }
 
 .font-size-large {
@@ -133,11 +133,6 @@
   font-size: 0.8rem;
 }
 
-.center {
-  text-align: center;
-  justify-content: center;
-}
-
 .margin-centering-in-mid {
   margin-left: 32%;
   margin-right: 32%;
@@ -151,7 +146,7 @@
   font-family: serif;
 }
 
-.shrink {
+.padding-bottom-2rem {
   padding: 0 0 2rem;
 }
 
@@ -208,10 +203,6 @@
   right: 0;
 }
 
-.bg-image {
-  background-image: url("../css-canvas-medical/images/hero.jpg");
-  position: relative;
-}
 .font-weight-light: {
   .font-weight: light;
 }
@@ -237,9 +228,8 @@
   margin-left: 6rem;
 }
 
-.justify-content {
+.text-align-center {
   text-align: center;
-  justify-content: space-between;
 }
 
 .space-nav {
@@ -292,7 +282,7 @@
 }
 
 .col-full {
-  width: 100%;
+  flex-basis: 100%;
 }
 
 .hero-image {
@@ -305,4 +295,5 @@
 
 .bottom-padding-1rem {
   padding-bottom: 1rem;
+}
 }
