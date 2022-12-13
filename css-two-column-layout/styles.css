@@ -24,6 +24,18 @@ h1 {
   flex-basis: 100%;
 }
 
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-third {
+  flex-basis: calc(2 / 3 * 100%);
+}
+
+.column-one-half {
+  flex-basis: calc(100% / 2);
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -32,20 +44,16 @@ h1 {
   font-size: x-large;
 }
 
-.col-full-padding {
+.padding-head-foot {
   padding: 1rem 9rem 3rem;
 }
 
-.col-full-margin-top-zero {
+.margin-top-zero {
   margin-top: 0;
 }
 
 p {
   font-size: medium;
-}
-
-.column-one-half {
-  flex-basis: 100%;
 }
 
 .learn-more {
@@ -54,12 +62,4 @@ p {
   border-color: red;
   padding: 0.2rem 2.5rem;
   font-size: medium;
-}
-
-.column-one-third {
-  flex-basis: 100%;
-}
-
-.column-two-third {
-  flex-basis: 100%;
 }
