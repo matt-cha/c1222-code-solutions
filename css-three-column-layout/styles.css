@@ -17,16 +17,12 @@ img {
   text-align: center;
 }
 
-.width-one-third {
-  width: calc(100% / 3);
-}
-
-.col-one-third-margin-lr {
+.margin-lr-25px {
   margin-left: 25px;
   margin-right: 25px;
 }
 
-.col-one-third-padding-top {
+.padding-top-1-4rem {
   padding-top: 1.4rem;
 }
 
