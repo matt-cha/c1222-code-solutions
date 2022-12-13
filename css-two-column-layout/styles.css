@@ -21,10 +21,22 @@ h1 {
 }
 
 .column-full {
+  flex-basis: 100%;
+}
+
+.text-align-center {
   text-align: center;
-  width: 100%;
+}
+
+.font-size-x-large {
   font-size: x-large;
+}
+
+.col-full-padding {
   padding: 1rem 9rem 3rem;
+}
+
+.col-full-margin-top-zero {
   margin-top: 0;
 }
 
@@ -33,7 +45,7 @@ p {
 }
 
 .column-one-half {
-  width: calc(100% / 2);
+  /* width: calc(100% / 2); */
 }
 
 .learn-more {
@@ -45,9 +57,11 @@ p {
 }
 
 .column-one-third {
-  width: calc(100% / 3);
+  /*  width: calc(100% / 3); */
+  flex-basis: 100%;
 }
 
 .column-two-third {
-  width: 66.66%;
+  /*   width: 66.66%; */
+  flex-basis: 100%;
 }
