@@ -13,13 +13,11 @@ h3 {
 }
 
 .column-full {
-  width: 100%;
-  flex-basis: auto;
+  flex-basis: 100%;
 }
 
 .column-one-fourth {
-  width: calc(100% / 4);
-  flex-basis: wrap;
+  flex-basis: calc(100% / 4);
 }
 
 .container {
