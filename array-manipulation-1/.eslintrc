@@ -1,0 +1,13 @@
+{
+  "env": {
+    "mocha": true,
+    "browser": true,
+    "node": false
+  },
+  "globals": {
+    "chai": "readonly"
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  }
+}
