@@ -10,7 +10,7 @@ img {
 }
 
 .column-one-third {
-  flex-basis: 100%;
+  flex-basis: calc(100% / 3);
 }
 
 .text-align-center {
