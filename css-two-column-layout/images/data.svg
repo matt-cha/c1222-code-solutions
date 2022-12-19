@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140px" height="140px" version="1.1" viewBox="0 0 140 140">
+<!--Generator: Sketch 53.2 (72643) - https://sketchapp.com-->
+    <title>
+        icons/data
+    </title>
+    <desc>
+        Created with Sketch.
+    </desc>
+    <g id="icons/data" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+        <rect id="Rectangle" width="140" height="140" x="0" y="0"/>
+        <g id="Group-13" transform="translate(19.000000, 16.000000)">
+            <path id="Path-3-Copy-2" fill="#FEF2D5" d="M85.2593135,37.4903362 C85.2593135,37.4903362 95.4295182,40.4065955 99.6565173,48.0559519 C103.883516,55.7053083 107.845683,77.0729051 83.5961262,91.2705324 C59.3465695,105.46816 31.9717772,104.97546 24.6089562,89.0700255 C17.2461352,73.1645907 20.657376,61.2681803 9.04638345,50.5818859 C-2.56460911,39.8955914 -3.02017045,22.2923335 9.95741806,12.2194172 C22.9350066,2.146501 38.4551463,-7.19735041 53.0854239,8.95277006 C67.7157015,25.1028905 85.2593135,37.4903362 85.2593135,37.4903362 Z"/>
+            <g id="Group-12-Copy" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" transform="translate(13.000000, 11.000000)">
+                <g id="Group-10">
+                    <polygon id="Path-4" points="4.55660377 27.0340163 15.1284598 59.3085106 4.55660377 27.0340163 39.0566038 5 65.2511013 29.1489362 30.5566038 33.6914894 63.2982711 29.1489362 59.3926108 59.3085106 15.1284598 59.3085106 29.9433962 33.6914894"/>
+                    <path id="Path-6" d="M38.5566038,5 C38.5566038,6.34042553 36.0377358,15.9042553 31,33.6914894 L58.7416674,59.3085106"/>
+                    <ellipse id="Oval-Copy" cx="4.55660377" cy="27.1382979" fill="#FFFFFF" rx="4.55660377" ry="4.69148936"/>
+                    <ellipse id="Oval-Copy-5" cx="15.1284598" cy="59.3085106" fill="#FFFFFF" rx="4.55660377" ry="4.69148936"/>
+                    <ellipse id="Oval-Copy-2" cx="38.5566038" cy="4.69148936" fill="#FFFFFF" rx="4.55660377" ry="4.69148936"/>
+                    <ellipse id="Oval-Copy-3" cx="59.3926108" cy="59.3085106" fill="#FFFFFF" rx="4.55660377" ry="4.69148936"/>
+                    <ellipse id="Oval-Copy-6" cx="30.5566038" cy="33.6914894" fill="#FFFFFF" rx="4.55660377" ry="4.69148936"/>
+                    <ellipse id="Oval-Copy-4" cx="63.2982711" cy="29.8191489" fill="#FFFFFF" rx="4.55660377" ry="4.69148936"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

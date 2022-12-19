@@ -1,0 +1,33 @@
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+  <title>icons/software</title>
+  <desc>Created with Sketch.</desc>
+  <g id="icons/software" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Group">
+      <rect id="Rectangle" x="0" y="0" width="140" height="140"></rect>
+      <g id="Group-2" transform="translate(0.000000, 6.000000)">
+        <path
+          d="M41.9577516,30.0260907 C41.9577516,30.0260907 41.9577516,18.0260907 48.9577516,11.0260907 C55.9577516,4.0260907 77.9577516,-6.9739093 100.957752,15.0260907 C123.957752,37.0260907 131.957752,67.0260907 116.957752,80.0260907 C101.957752,93.0260907 87.9577516,93.0260907 79.9577516,109.026091 C71.9577516,125.026091 52.9577516,131.026091 37.9577516,120.026091 C22.9577516,109.026091 7.95775164,95.0260907 20.9577516,74.0260907 C33.9577516,53.0260907 41.9577516,30.0260907 41.9577516,30.0260907 Z"
+          id="Path-3-Copy-4" fill="#E6F7FF"
+          transform="translate(70.299393, 63.814404) rotate(-99.000000) translate(-70.299393, -63.814404) "></path>
+        <path
+          d="M61.752679,23.1914894 L41.0001484,30.708156 L34,43.008156 L45.7630243,62.1414894 L65.8351441,64.1914894 L65.8351441,85.9727394 C70.3712164,98.7852394 72.6392525,105.191489 72.6392525,105.191489 C72.6392525,105.191489 79.4433609,100.749823 93.0515778,91.8664894 L95.0928103,67.9498227 L107,53.9414894 L93.0515778,45.3998227 C90.3299344,34.9220449 88.6289073,29.683156 87.9484964,29.683156 C87.6599693,29.683156 84.1917571,28.3734338 77.5438596,25.7539894 L74.3589895,29.683156 L63.7939116,29.683156 L61.752679,23.1914894 Z"
+          id="Path-5-Copy" stroke="#000000" stroke-width="3" fill-opacity="0.5" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round"></path>
+        <ellipse id="Oval-Copy-15" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round" cx="64.5" cy="65.1914894" rx="5.5" ry="6"></ellipse>
+        <ellipse id="Oval-Copy-16" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round" cx="57.5" cy="24.1914894" rx="5.5" ry="6"></ellipse>
+        <ellipse id="Oval-Copy-17" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round" cx="73.5" cy="102.191489" rx="5.5" ry="6"></ellipse>
+        <ellipse id="Oval-Copy-18" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round" cx="94.5" cy="47.1914894" rx="5.5" ry="6"></ellipse>
+        <ellipse id="Oval-Copy-19" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round" cx="35.5" cy="43.1914894" rx="5.5" ry="6"></ellipse>
+        <polygon id="Path-7-Copy" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"
+          stroke-linejoin="round" points="104 73.1145663 104 84.1914894 107.75 78.6530278 109 68.1914894"></polygon>
+      </g>
+    </g>
+  </g>
+</svg>
