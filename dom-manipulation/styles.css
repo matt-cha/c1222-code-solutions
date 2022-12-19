@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hot-button {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid rgb(70 70 70);
+  border-radius: 0.25rem;
+  position: relative;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.hot-button:focus {
+  outline: none;
+}
+
+.hot-button:active {
+  top: 3px;
+}
+
+.hot-button.cold {
+  background-color: rgb(53 28 117);
+}
+
+.hot-button.cool {
+  background-color: rgb(103 78 167);
+}
+
+.hot-button.tepid {
+  background-color: rgb(224 102 102);
+}
+
+.hot-button.warm {
+  background-color: rgb(246 178 107);
+}
+
+.hot-button.hot {
+  background-color: rgb(231 231 73);
+}
+
+.hot-button.nuclear {
+  color: red;
+  border-color: red;
+  background-color: rgb(255 255 255);
+}
+
+.hot-button.cold,
+.hot-button.cool,
+.hot-button.tepid {
+  color: rgb(255 255 255);
+}
+
+.hot-button.warm,
+.hot-button.hot {
+  color: rgb(70 70 70);
+}
+
+.click-count {
+  padding: 0.5rem 0;
+  text-align: center;
+}
