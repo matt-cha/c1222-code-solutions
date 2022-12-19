@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": false,
+    "browser": true
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "off"
+  }
+}
