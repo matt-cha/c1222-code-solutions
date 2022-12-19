@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Practice Problems - 4</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.2.0/mocha.min.css">
+  <style>
+    #mocha h1 {
+      font-size: 1.5rem;
+    }
+
+    #mocha h2 {
+      font-size: 1rem;
+    }
+
+    #mocha-stats,
+    #mocha .test pre {
+      font-size: 1rem;
+    }
+
+    #page-title {
+      font-size: 2rem !important;
+    }
+
+    body,
+    #mocha {
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="mocha">
+    <h1 id="page-title">JavaScript Loops Practice</h1>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.2.0/mocha.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sinon.js/7.4.2/sinon.js"></script>
+  <script>
+    /* eslint-disable-next-line no-unused-vars */
+    var expect = chai.expect;
+    mocha.setup('bdd');
+  </script>
+  <script src="countdown.js"></script>
+  <script src="countdown.test.js"></script>
+  <script src="sum-all.js"></script>
+  <script src="sum-all.test.js"></script>
+  <script src="get-indexes.js"></script>
+  <script src="get-indexes.test.js"></script>
+  <script src="add-suffix-to-all.js"></script>
+  <script src="add-suffix-to-all.test.js"></script>
+  <script src="get-student-names.js"></script>
+  <script src="get-student-names.test.js"></script>
+  <script src="filter-out-nulls.js"></script>
+  <script src="filter-out-nulls.test.js"></script>
+  <script src="filter-out-strings.js"></script>
+  <script src="filter-out-strings.test.js"></script>
+  <script src="includes-seven.js"></script>
+  <script src="includes-seven.test.js"></script>
+  <script src="find-index.js"></script>
+  <script src="find-index.test.js"></script>
+  <script src="odd-or-even.js"></script>
+  <script src="odd-or-even.test.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>
