@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Media Queries - Breakpoints</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="pokemon.css">
+  <style>
+
+    #card-deck {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card-wrapper {
+      padding: 0.5rem;
+      flex-basis: 100%;
+    }
+
+    /* your code here 👇 */
+    @media (min-width: 575px) {
+      .card-wrapper {
+        flex-basis: 50%;
+      }
+    }
+    @media (min-width: 767px) {
+      .card-wrapper {
+        flex-basis: calc(100% / 3);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="card-deck">
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/001.png" alt="Bulbasaur">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/004.png" alt="Charmander">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/007.png" alt="Squirtle">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/025.png" alt="Pikachu">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/039.png" alt="Jigglypuff">
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="pokemon-card">
+        <img src="images/104.png" alt="Cubone">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
