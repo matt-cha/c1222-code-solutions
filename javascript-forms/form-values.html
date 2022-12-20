@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Form Values</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <form id="contact-form">
+      <h2>Contact Us</h2>
+      <label for="user-name">Name</label>
+      <input
+        required
+        name="name"
+        type="text"
+        id="user-name"
+        placeholder="Sally Smith">
+      <label for="user-email">Email</label>
+      <input
+        required
+        name="email"
+        type="email"
+        id="user-email"
+        placeholder="smally@email.com">
+      <label for="user-message">Message</label>
+      <textarea
+        required
+        rows="5"
+        name="message"
+        id="user-message"
+        placeholder="I'm writing to ask about..."></textarea>
+      <div class="form-actions">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+  <script src="form-values.js"></script>
+</body>
+</html>
