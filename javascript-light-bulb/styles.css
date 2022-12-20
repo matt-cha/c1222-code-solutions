@@ -35,7 +35,7 @@
 }
 
 .color-yellow {
-  background-color: #faea84;
+  background-color: #f9ea84;
 }
 
 .color-grey {
@@ -67,9 +67,9 @@ p {
 }
 
 .box-shadow-dark {
-  box-shadow: 0 0 15px grey;
+  box-shadow: 0 -10px 10px black;
 }
 
 .box-shadow-light {
-  box-shadow: 0 0 15px #f0e49c);
+  box-shadow: 0 0 15px 5px #fdf3cc;
 }

@@ -1,5 +1,5 @@
 var $circle = document.querySelector('.circle');
-var $background = document.querySelector('background-color-white');
+var $background = document.querySelector('.background-color-white');
 var clicks = 0;
 $circle.addEventListener('click', lightBulbClicked);
 function lightBulbClicked(event) {
