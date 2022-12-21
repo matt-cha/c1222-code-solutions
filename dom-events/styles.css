@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+button {
+  margin: 0.25rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 2rem;
+  color: white;
+  box-shadow: 0 3px 2px rgb(0 0 0 / 20%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+#container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.click-button {
+  background-color: maroon;
+}
+
+.double-click-button {
+  background-color: rgb(124 224 24);
+}
+
+.hover-button {
+  background-color: darkslateblue;
+}
+
+.hover-button:hover {
+  background-color: blueviolet;
+}
