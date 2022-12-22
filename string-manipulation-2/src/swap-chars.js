@@ -12,13 +12,24 @@ firstIndex place and vice versa
   }
   return swappedCharacterString;
 } */
-function swapChars(firstIndex, secondIndex, string) {
+/* function swapChars(firstIndex, secondIndex, string) {
   var swappedCharacterString = '';
   for (var i = 0; i < string.length; i++) {
-    string[firstIndex] = string[secondIndex];
-    /*     console.log('value of string[firstIndex]', string[firstIndex]); */
-    /*     string[secondIndex] = string.firstIndex; */
+    string[firstIndex] = secondIndex;
+    console.log('value of string[firstIndex]', string[firstIndex]);
+        string[secondIndex] = string.firstIndex;
     swappedCharacterString += string[i];
+  }
+  return swappedCharacterString;
+} */
+function swapChars(firstIndex, secondIndex, string) {
+  var swappedCharacterString = '';
+  var stringArray = string.split('');
+
+  for (var i = 0; i < stringArray.length; i++) {
+    stringArray[firstIndex] = stringArray.secondIndex;
+    stringArray[secondIndex] = stringArray.firstIndex;
+    swappedCharacterString = stringArray.join('');
   }
   return swappedCharacterString;
 }
