@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Local Storage</title>
+  <link
+    rel="stylesheet"
+    crossorigin="anonymous"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+    integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
+        <h1 class="text-center my-4">JavaScript Todos</h1>
+        <form id="todo-form" class="mb-4">
+          <div class="input-group">
+            <input
+              required
+              autofocus
+              type="text"
+              name="task"
+              class="form-control"
+              placeholder="What to do?">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-primary">ADD</button>
+            </div>
+          </div>
+        </form>
+        <ul id="todo-list" class="list-group"></ul>
+      </div>
+    </div>
+  </div>
+  <script
+    crossorigin="anonymous"
+    src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.1/uuid.min.js"
+    integrity="sha512-4JH7nC4nSqPixxbhZCLETJ+DUfHa+Ggk90LETm25fi/SitneSvtxkcWAUujvYrgKgvrvwv4NDAsFgdwCS79Dcw=="></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
