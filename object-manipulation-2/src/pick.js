@@ -12,8 +12,14 @@ set the new object at keys array at index of i equal to the new variable
 function pick(source, keys) {
   var newObject = {};
   for (var i = 0; i < keys.length; i++) {
-    var key = source[keys[i]];
+    var key = source[keys[i]]; // key equal to object's key at index i .
+
+    /*     console.log('keys[i]:', keys[i]);
+    console.log('source[keys[i]]:', source[keys[i]]); */
+
     if (key !== undefined) {
+      // if the object's keys like foo, bar) does exist, set newObject's
+      // keys and valye to that idnex of i.
       newObject[keys[i]] = key;
     }
   }
