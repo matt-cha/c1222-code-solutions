@@ -7,11 +7,22 @@
 -set the new object's keys at index i value to the new key variable */
 function omit(source, keys) {
   var newObject = {};
-  for (var i = 0; i < keys.length; i++) {
-    var key = source[keys[i]];
-    if (key !== undefined) {
-      newObject[keys[i]] = key;
+  var sourceKeys = Object.keys(source);
+  for (var i = 0; i < sourceKeys.length; i++) {
+    if (!keys.includes(sourceKeys[i])) {
+      newObject[sourceKeys[i]] = source[sourceKeys[i]];
     }
   }
+
   return newObject;
 }
+
+/* source = {
+  foo: 1,
+  bar: 2,
+  baz: 3
+};
+
+keys = ['foo', 'baz'];
+bnewobject = bar: 2.
+ */
