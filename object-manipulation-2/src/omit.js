@@ -9,12 +9,8 @@ function omit(source, keys) {
   var newObject = {};
   for (var i = 0; i < keys.length; i++) {
     var key = source[keys[i]];
-
-    /*     console.log('source[keys[i]]:', key);
-    console.log('keys[i]:', keys[i]); */
-
     if (key !== undefined) {
-      newObject[keys[i]] = key; // need it to give the other values of source[keys]?
+      newObject[keys[i]] = key;
     }
   }
   return newObject;
