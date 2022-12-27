@@ -6,7 +6,10 @@
 function chunk(array, size) {
   var newArray = [];
   for (var i = 0; i < array.length; i++) {
-    newArray.push(array[i]);
+    /*     newArray.push(array.slice([i])); */
+    array.slice(0);
+    /*     console.log(newArray.push(array.slice(0, 1))); */
+
   }
 
   return newArray;
