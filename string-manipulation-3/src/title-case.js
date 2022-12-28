@@ -12,9 +12,10 @@ special case: if string word is JavaScript or API
 
 function titleCase(title) {
   var newTitle = title.split(' ');
-  /*   console.log('newTitle:', newTitle); */
+
   for (var i = 0; i < title.length; i++) {
     newTitle += title[0].toUpperCase() + title.slice(1).toLowerCase();
+    /*     console.log(newTitle); */
   }
   return newTitle;
 }
