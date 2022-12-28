@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.fighter {
+  width: 100%;
+}
+
+.container {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col,
+.col-sm-half,
+.col-lg-third,
+.col-lg-fourth {
+  padding: 0 0.5rem;
+  width: 100%;
+}
+
+/* your code 👇 here */
+@media only screen and (min-width: 576px) {
+  .col-sm-half {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-lg-third {
+    width: calc(100% / 3);
+  }
+
+  .col-lg-fourth {
+    width: calc(100% / 4);
+  }
+}
