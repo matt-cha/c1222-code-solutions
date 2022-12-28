@@ -13,16 +13,5 @@ function omit(source, keys) {
       newObject[sourceKeys[i]] = source[sourceKeys[i]];
     }
   }
-
   return newObject;
 }
-
-/* source = {
-  foo: 1,
-  bar: 2,
-  baz: 3
-};
-
-keys = ['foo', 'baz'];
-bnewobject = bar: 2.
- */

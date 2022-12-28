@@ -18,11 +18,3 @@ function pick(source, keys) {
   }
   return newObject;
 }
-
-/* // source = {
-  foo: 1,
-  bar: 2,
-  baz: 3
-}
-
-keys = ['foo', 'baz']; */
