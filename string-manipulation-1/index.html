@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>String Manipulation 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.2.0/mocha.min.css">
+  <style>
+    #mocha h1 {
+      font-size: 1.5rem;
+    }
+
+    #mocha h2 {
+      font-size: 1rem;
+    }
+
+    #mocha-stats,
+    #mocha .test pre {
+      font-size: 1rem;
+    }
+
+    #page-title {
+      font-size: 2rem !important;
+    }
+
+    body,
+    #mocha {
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div id="mocha">
+    <h1 id="page-title">String Manipulation 1</h1>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.2.0/mocha.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.js"></script>
+  <script>
+    /* exported expect */
+    var expect = chai.expect;
+    mocha.setup('bdd');
+  </script>
+  <script src="src/ban-methods.js"></script>
+  <script src="src/get-first-char.js"></script>
+  <script src="src/get-first-char.test.js"></script>
+  <script src="src/get-last-char.js"></script>
+  <script src="src/get-last-char.test.js"></script>
+  <script src="src/capitalize.js"></script>
+  <script src="src/capitalize.test.js"></script>
+  <script src="src/is-upper-cased.js"></script>
+  <script src="src/is-upper-cased.test.js"></script>
+  <script src="src/is-lower-cased.js"></script>
+  <script src="src/is-lower-cased.test.js"></script>
+  <script src="src/is-vowel.js"></script>
+  <script src="src/is-vowel.test.js"></script>
+  <script src="src/get-words.js"></script>
+  <script src="src/get-words.test.js"></script>
+  <script src="src/reverse-word.js"></script>
+  <script src="src/reverse-word.test.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+
+</html>
