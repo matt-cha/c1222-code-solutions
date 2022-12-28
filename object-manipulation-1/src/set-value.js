@@ -5,8 +5,6 @@
 value and key within the object
 -return the object */
 function setValue(object, key, value) {
-
   object[key] = value;
-  Object.keys(object);
   return object;
 }
