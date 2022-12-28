@@ -10,12 +10,21 @@ special case: if string word is JavaScript or API
   return word[0].toUpperCase() + word.slice(1).toLowerCase();
 } */
 
-function titleCase(title) {
-  var newTitle = title.split(' ');
-
-  for (var i = 0; i < title.length; i++) {
-    newTitle += title[0].toUpperCase() + title.slice(1).toLowerCase();
-    /*     console.log(newTitle); */
-  }
-  return newTitle;
-}
+/* function titleCase(title) {
+  var splitTitle = title.split(' ');
+  for (var i = 0; i < splitTitle.length; i++) {
+    splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1).toLowerCase();
+    if (splitTitle[i].toLowerCase() === 'javascript') {
+      splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1, 4).toLowerCase() + splitTitle[i][4].toUpperCase() + splitTitle[i].slice(5).toLowerCase();
+    } else if (splitTitle[i].toUpperCase() === 'API') {
+      splitTitle[i] = splitTitle[i].toUpperCase();
+    } else if (splitTitle[i] === splitTitle[0]) {
+      splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1).toLowerCase();
+    } else if (splitTitle[i] === "and" || splitTitle[i] === "or") */
+/*     } else if (splitTitle[i].length <= 3) {
+      splitTitle[i] = splitTitle[i].toLowerCase();
+    } */
+/*   }
+  var finalTitle = splitTitle.join(' ');
+  return finalTitle;
+} */
