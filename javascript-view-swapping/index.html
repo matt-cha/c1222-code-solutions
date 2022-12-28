@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript View Swapping</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-container">
+    <h1>Languages of the Web</h1>
+    <div class="tabbed-views">
+      <div class="tab-container">
+        <div class="tab active" data-view="html">HTML</div>
+        <div class="tab" data-view="css">CSS</div>
+        <div class="tab" data-view="javascript">JavaScript</div>
+      </div>
+      <div class="view-container">
+        <div class="view" data-view="html">
+          <img class="shield" src="images/html.png" alt="Hypertext Markup Language">
+          <div class="info">
+            <p>
+              Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web
+              browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+              JavaScript.
+            </p>
+            <p>
+              Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web
+              pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the
+              document.
+            </p>
+          </div>
+        </div>
+        <div class="view hidden" data-view="css">
+          <img class="shield" src="images/css.png" alt="Cascading Style Sheets">
+          <div class="info">
+            <p>
+              Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a
+              markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and
+              JavaScript.
+            </p>
+            <p>
+              The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule
+              matches a particular element. This cascading priority scheme is predictable.
+            </p>
+          </div>
+        </div>
+        <div class="view hidden" data-view="javascript">
+          <img class="shield" src="images/javascript.png" alt="JavaScript">
+          <div class="info">
+            <p>
+              JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript
+              specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket
+              syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+            </p>
+            <p>
+              Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. Javascript enables
+              interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side
+              page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
