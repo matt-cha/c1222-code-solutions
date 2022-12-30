@@ -6,25 +6,30 @@
 special case: if string word is JavaScript or API
 - */
 
-/* function capitalize(word) {
-  return word[0].toUpperCase() + word.slice(1).toLowerCase();
-} */
+function titleCase(string) {
+  var array = ['and', 'or', 'nor', 'but', 'a', 'an', 'the', 'as', 'at', 'by', 'for', 'in', 'of', 'on', 'per', 'to'];
+  var splitTitle = string.split(' ');
 
-/* function titleCase(title) {
-  var splitTitle = title.split(' ');
   for (var i = 0; i < splitTitle.length; i++) {
+    /*     console.log(splitTitle[i]); */
     splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1).toLowerCase();
     if (splitTitle[i].toLowerCase() === 'javascript') {
       splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1, 4).toLowerCase() + splitTitle[i][4].toUpperCase() + splitTitle[i].slice(5).toLowerCase();
-    } else if (splitTitle[i].toUpperCase() === 'API') {
+    }
+    if (splitTitle[i].toUpperCase() === 'API') {
       splitTitle[i] = splitTitle[i].toUpperCase();
-    } else if (splitTitle[i] === splitTitle[0]) {
+    }
+    for (var k = 0; k < array.length; k++) {
+      if (splitTitle[i - 1].includes(':')) {
+        splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1).toLowerCase();
+      } else if (splitTitle[i].toLowerCase() === array[k]) {
+        splitTitle[i] = splitTitle[i].toLowerCase();
+      }
+    }
+    if (splitTitle[i] === splitTitle[0]) {
       splitTitle[i] = splitTitle[i][0].toUpperCase() + splitTitle[i].slice(1).toLowerCase();
-    } else if (splitTitle[i] === "and" || splitTitle[i] === "or") */
-/*     } else if (splitTitle[i].length <= 3) {
-      splitTitle[i] = splitTitle[i].toLowerCase();
-    } */
-/*   }
+    }
+  }
   var finalTitle = splitTitle.join(' ');
   return finalTitle;
-} */
+}
