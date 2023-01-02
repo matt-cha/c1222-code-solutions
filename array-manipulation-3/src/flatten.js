@@ -17,3 +17,16 @@
 }
 need to figure outhow to do this with the isArray method DO NOT SUBMIT!
  */
+
+function flatten(array) {
+  var flattenedArray = [];
+  /*   console.log('line 23', array[0]);
+  console.log('line24', array[1]); */
+  for (var i = 0; i < array.length; i++) {
+    if (Array.isArray(array[i])) {
+      flattenedArray.push(array[i]);
+    }
+  }
+  /*   console.log('flattenedArray:', flattenedArray); */
+  return flattenedArray;
+}
