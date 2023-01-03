@@ -28,18 +28,3 @@ function difference(first, second) {
   return differenceArray;
 
 }
-
-/* function difference(first, second) {
-  var differenceArray = [];
-
-  for (var i = 0; i < first.length; i++) {
-    if (!second.indexOf(first[i])) {
-      differenceArray.push(first[i]);
-    }
-  }
-  for (var k = 0; k < second.length; k++) {
-    if (!first.indexOf(second[k])) {
-      differenceArray.push(second[k]);
-    }
-  }
- */
