@@ -28,23 +28,18 @@ Account.prototype.withdraw = function (amount) {
 
 Account.prototype.getBalance = function () {
 
-  var depositSum = 0;
-  var withdrawalSum = 0;
   var currentFunds = 0;
   if (this.transactions.length === 0) {
     return currentFunds;
   } else {
     for (var i = 0; i < this.transactions.length; i++) {
       if (this.transactions[i].type === 'deposit') {
-        depositSum += this.transactions[i].amount;
+        currentFunds += this.transactions[i].amount;
       }
       if (this.transactions[i].type === 'withdrawal') {
-        withdrawalSum += this.transactions[i].amount;
+        currentFunds -= this.transactions[i].amount;
       }
-
     }
-    currentFunds = depositSum - withdrawalSum;
     return currentFunds;
   }
-
 };
