@@ -30,9 +30,9 @@ Account.prototype.getBalance = function () {
 
   var depositSum = 0;
   var withdrawalSum = 0;
-  var funds = 0;
+  var currentFunds = 0;
   if (this.transactions.length === 0) {
-    return funds;
+    return currentFunds;
   } else {
     for (var i = 0; i < this.transactions.length; i++) {
       if (this.transactions[i].type === 'deposit') {
@@ -43,8 +43,8 @@ Account.prototype.getBalance = function () {
       }
 
     }
-    funds = depositSum - withdrawalSum;
-    return funds;
+    currentFunds = depositSum - withdrawalSum;
+    return currentFunds;
   }
 
 };
