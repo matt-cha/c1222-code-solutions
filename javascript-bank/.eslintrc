@@ -1,0 +1,31 @@
+{
+  "env": {
+    "node": false,
+    "browser": true,
+    "mocha": true
+  },
+  "globals": {
+    "chai": "readonly"
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "overrides": [
+    {
+      "files": [
+        "account.js"
+      ],
+      "globals": {
+        "Transaction": "readonly"
+      }
+    },
+    {
+      "files": [
+        "bank.js"
+      ],
+      "globals": {
+        "Account": "readonly"
+      }
+    }
+  ]
+}
