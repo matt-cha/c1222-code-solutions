@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript Bank</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.2.0/mocha.min.css">
+  <style>
+    #mocha h1 {
+      font-size: 1.5rem;
+    }
+
+    #mocha h2 {
+      font-size: 1rem;
+    }
+
+    #mocha-stats,
+    #mocha .test pre {
+      font-size: 1rem;
+    }
+
+    #page-title {
+      font-size: 2rem !important;
+    }
+
+    body,
+    #mocha {
+      font-family: monospace;
+    }
+
+    .test.pass::before,
+    .test.fail::before,
+    .test.pending::before {
+      font-size: 18px !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="mocha">
+    <h1 id="page-title">JavaScript Bank</h1>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.2.0/mocha.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.js"></script>
+  <script>
+    /* exported expect */
+    var expect = chai.expect;
+    mocha.setup('bdd');
+  </script>
+  <script src="transaction.js"></script>
+  <script src="transaction.test.js"></script>
+  <script src="account.js"></script>
+  <script src="account.test.js"></script>
+  <script src="bank.js"></script>
+  <script src="bank.test.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+
+</html>
