@@ -1,0 +1,60 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.column-two-fourth {
+  flex-basis: calc(100% / 2);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.carousel-box {
+  height: 500px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-box {
+  height: 500px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-arrow {
+  width: 250px;
+  height: 50px;
+}
+
+.right-arrow {
+  width: 250px;
+  height: 50px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.font-size-arrow {
+  font-size: xx-large;
+}
