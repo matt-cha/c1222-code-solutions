@@ -2,7 +2,7 @@
 var intervalId = setInterval(countdown, 1000);
 function countdown() {
   var $h1 = document.querySelector('.countdown-display');
-  if ($h1.textContent < 2) {
+  if ($h1.textContent <= 1) {
     clearInterval(intervalId);
     intervalId = null;
     $h1.textContent = '~Earth Beeeelooowww Us~';
