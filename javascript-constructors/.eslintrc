@@ -1,0 +1,36 @@
+{
+  "env": {
+    "node": false,
+    "browser": true,
+    "mocha": true
+  },
+  "globals": {
+    "chai": "readonly"
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "overrides": [
+    {
+      "files": [
+        "new-objects.js"
+      ],
+      "rules": {
+        "no-console": "off",
+        "no-new-func": "off",
+        "no-new-object": "off",
+        "no-new-wrappers": "off",
+        "no-array-constructor": "off"
+      }
+    },
+    {
+      "files": [
+        "example-constructor.js"
+      ],
+      "rules": {
+        "no-proto": "off",
+        "no-console": "off"
+      }
+    }
+  ]
+}
